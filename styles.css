@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Outfit:wght@300;400;600&display=swap');
+* {
+    font-family: "outfit", sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+
+
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 21.75rem;
+    height: 37.125rem;
+    border-radius: 15px;
+    box-shadow: 0.9375rem 1.4375rem 0.9375rem 0.625rem hsla(216, 54%, 11%, 0.459);
+}
+
+.nft {
+    width: 19.0625rem;
+    height: 18.875rem;
+    border-radius: 10px;
+    margin: 1.3125rem;
+    cursor: pointer;
+    position: relative;
+}
+.active{
+    width: 19.0625rem;
+    height: 18.875rem;
+    border-radius: 10px;
+    margin: 1.3125rem;
+    cursor: pointer;
+    position: absolute;
+    background-color: rgba(0, 128, 128, 0.404); 
+    opacity: 0;
+}
+
+.view{
+
+    position: absolute;
+    left: 43%;
+    top: 43%;
+    opacity: 0;
+  
+
+}
+.active:active,.view:active{
+    opacity: 1;
+}
+
+
+.content {
+    padding-left: 1.5rem;
+}
+
+.head {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.875rem;
+    cursor: pointer;
+}
+.head:active{
+    color: hsl(178, 100%, 50%);
+}
+
+.body {
+    color: hsl(215, 51%, 70%);
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.5625rem;
+    padding-top: 1.25rem;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+    display: inline;
+    font-size: 1.125rem;
+    font-weight: 400;
+
+}
+
+.time {
+    color: hsl(215, 51%, 70%);
+    font-size: 1.125rem;
+    font-weight: 300;
+
+}
+
+.fname {
+    color: hsl(215, 51%, 70%);
+    font-size: 1.125rem;
+    font-weight: 300;
+    padding-left: 1.25rem;
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.125rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+.name:active{
+   color:  hsl(178, 100%, 50%);
+    
+}
+
+.profile {
+    height: 2.1875rem;
+    width: 2.1875rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.container {
+    padding-top: 0.625rem;
+    margin-right: 1.875rem;
+    border-bottom: 0.1px solid;
+    border-color: hsl(215, 51%, 70%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 3.75rem;
+}
+
+.foot {
+    padding-top: 0.9375rem;
+    display: flex;
+    align-items: center;
+}
+
+.attribution {
+    margin-top: 0.625rem;
+    font-size: 0.6875rem;
+    color: white;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
